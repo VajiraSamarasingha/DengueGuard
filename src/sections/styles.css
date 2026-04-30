@@ -1,0 +1,42 @@
+/* TITLE SECTION ONLY */
+.banner-title {
+  width: 100%;
+}
+
+/* IMAGE AREA */
+.title-bg {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* OVERLAY */
+.title-overlay {
+  background: rgba(10, 53, 78, 0.75); /* your theme */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* TEXT */
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
